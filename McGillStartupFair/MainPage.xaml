@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="McGillStartupFair.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <RelativeLayout>
+           <Image x:Name="backgroundImage"
+                  Aspect="Fill"
+                RelativeLayout.WidthConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                  RelativeLayout.HeightConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+           <Image x:Name="logo"
+               Margin="46,26,20,20"
+               Aspect="AspectFit"
+               Scale="2.1"
+               HorizontalOptions="EndAndExpand"
+               VerticalOptions="StartAndExpand"
+            />
+
+            <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+            </Grid.RowDefinitions>
+
+   
+
+            <StackLayout>
+
+
+            <Label
+                Margin="0,80,0,0"
+                VerticalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="CenterAndExpand"
+                TextColor="FloralWhite"
+                FontFamily="Comic Sans MS"
+                FontAttributes="Bold"
+                FontSize="Title"
+                >
+                McGill Startup Fair
+            </Label>
+
+            <Button x:Name="EnterButton"
+                Text="Enter"
+                FontFamily=""
+                TextColor="FloralWhite"
+                BackgroundColor="Red"
+                Margin="50,0,50,20"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="FillAndExpand"
+                CornerRadius="10"
+                FontAttributes="Bold"
+                BorderColor="FloralWhite"
+                BorderWidth="2"
+                Clicked="EnterButton_Clicked"
+
+            />
+     
+
+  
+             <!--<Button x:Name="InfoButton"
+                Text="Info "
+                TextColor="White"
+                BackgroundColor="Red"
+                HorizontalOptions="FillAndExpand"
+                CornerRadius="10"
+                Margin="50,0,50,20"
+                FontAttributes="Bold"
+            />
+
+            <Button x:Name="MapButton"
+                Text="Floor Plan "
+                TextColor="White"
+                BackgroundColor="Red"
+                HorizontalOptions="FillAndExpand"
+                CornerRadius="10"
+                FontAttributes="Bold"
+                Margin="50,0,50,0"
+            />-->
+
+
+            </StackLayout>
+   
+         
+
+            </Grid>
+     
+        </RelativeLayout>
+    </StackLayout>
+</ContentPage>

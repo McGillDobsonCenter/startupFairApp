@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\Images\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\Images\martlet.png" />
+    <None Remove="Assets\Images\martlet.png" />
+    <None Remove="Assets\Images\background4.jpg" />
+    <None Remove="Assets\Images\logo2.png" />
+    <None Remove="Assets\Images\amazon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\martlet.png" />
+    <EmbeddedResource Include="Assets\Images\background4.jpg" />
+    <EmbeddedResource Include="Assets\Images\logo2.png" />
+    <EmbeddedResource Include="Assets\Images\amazon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MyPage.xaml.cs" />
+    <Compile Remove="Models\C.cs" />
+    <Compile Remove="Views\CompanyView.cs" />
+  </ItemGroup>
+</Project>
