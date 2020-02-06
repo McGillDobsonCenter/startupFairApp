@@ -16,7 +16,6 @@ namespace McGillStartupFair.Views
 
             var assembly = typeof(CompanyView);
 
-            logo.Source = ImageSource.FromResource(company.ImagePath, assembly);
         }
     }
 }

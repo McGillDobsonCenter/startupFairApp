@@ -4,10 +4,14 @@
 
    <StackLayout Margin="20,35,20,25">
 
-        <Label x:Name="Name"/>
+        <Label Text="Amazon"/>
+        <Entry
+            x:Name="description"/>
 
-       <Image x:Name="logo"/>
+       <Image Source="McGillStartupFair.Assets.Images.amazon_PNG15.png"/>
     
    </StackLayout>
+
+
 
 </ContentPage>

@@ -20,13 +20,18 @@ namespace McGillStartupFair.iOS
         //
         // You have 17 seconds to return from this method, or iOS will terminate your application.
         //
+
+
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            UINavigationBar.Appearance.BarTintColor = new UIColor(245 / 255f, 246 / 255f, 247 / 255f, 1.0f);
+            UINavigationBar.Appearance.TintColor = new UIColor(90 / 255f, 36 / 255f, 191 / 255f, 1.0f);
             Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.FormsMaps.Init();
             LoadApplication(new App());
-
             return base.FinishedLaunching(app, options);
         }
+
     }
 }

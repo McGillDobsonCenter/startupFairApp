@@ -10,7 +10,7 @@
                   RelativeLayout.HeightConstraint=
                   "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
            <Image x:Name="logo"
-               Margin="46,26,20,20"
+               Margin="66,26,20,20"
                Aspect="AspectFit"
                Scale="2.1"
                HorizontalOptions="EndAndExpand"

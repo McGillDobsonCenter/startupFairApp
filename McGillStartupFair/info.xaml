@@ -1,4 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="McGillStartupFair.info">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="McGillStartupFair.info">
+    <ScrollView>
+    <StackLayout>
+        <Label Margin="20,20,20,0" TextColor="Black" FontSize="Title" FontAttributes="Bold" FontFamily="Comic Sans MS">
+            Information
+        </Label>
+         <Label Margin="20,10,20,0" FontSize="Medium" FontAttributes="Bold" FontFamily="Comic Sans MS" TextColor="Black">
+            What is StartupFair?:
+        </Label>
+        <Label Margin="20,0,20,0" FontSize="Small" FontFamily="Comic Sans MS" TextColor="Black">
+            Started last year, McGill StartupFair aims to connect students accross all faculties to Montreal's startup ecosystem. This is a great opportunity to discover local startups and explore career/internship opportunities.
+        </Label>
+         <Label Margin="20,10,20,0" FontSize="Medium" FontAttributes="Bold" FontFamily="Comic Sans MS" TextColor="Black">
+            When:
+        </Label>
+        <Label Margin="20,0,20,0" FontSize="Small" FontFamily="Comic Sans MS" TextColor="Black">
+            Wednesday February 26th 2020 from 4 to 8 pm
+        </Label>
+        <Label Margin="20,10,20,0" FontSize="Medium" FontAttributes="Bold" FontFamily="Comic Sans MS" TextColor="Black">
+            Location:
+        </Label>
+        <Label Margin="20,0,20,0" FontSize="Small" FontFamily="Comic Sans MS" TextColor="Black">
+            New Residence Hall, 3625 Avenue Parc
+        </Label>
+        <Button CornerRadius="10" FontAttributes="Bold" FontFamily="Comic Sans MS" Text="Open in Maps" Clicked="map_Clicked" Margin="40,0,40,0" Scale="0.75"    BackgroundColor="Red" TextColor="White"/>
+        <Label Margin="20,10,20,0" FontSize="Medium" FontAttributes="Bold" FontFamily="Comic Sans MS" TextColor="Black">
+            Tips:
+        </Label>
+        <Label Margin="20,0,20,0" FontSize="Small" FontFamily="Comic Sans MS" TextColor="Black">
+            Download and view the PDF with the button below
+        </Label>
+        <Button CornerRadius="10" Text="More Tips" FontFamily="Comic Sans MS" FontAttributes="Bold" Clicked="Tips_Clicked" Margin="40,0,40,0" Scale="0.75" BackgroundColor="Red" TextColor="White"/>
 
-</ContentPage>
+    </StackLayout>
+</ScrollView>
+</ContentPage> 
