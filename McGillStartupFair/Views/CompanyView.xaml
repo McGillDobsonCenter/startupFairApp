@@ -11,7 +11,11 @@
         <Label Text="{Binding CompanyDescription}"
                VerticalOptions="Center"/>
        
-      
+       <Button Text="Add To Favorites"
+               VerticalOptions="Start"
+               Clicked="Favourites_Clicked"
+               />
+
     </StackLayout>
 
 </ContentPage>
