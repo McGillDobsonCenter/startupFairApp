@@ -49,6 +49,17 @@
     <None Remove="Assets\Images\mistplay.png" />
     <None Remove="Assets\Images\ex.png" />
     <None Remove="Assets\Images\rail.jpg" />
+    <None Remove="Assets\Images\nufunds.png" />
+    <None Remove="Assets\Images\hypnosand.png" />
+    <None Remove="Assets\Images\sonder.png" />
+    <None Remove="Assets\Images\goalcast.png" />
+    <None Remove="Assets\Images\physio.jpg" />
+    <None Remove="Assets\Images\compass.png" />
+    <None Remove="Assets\Images\precare.png" />
+    <None Remove="Assets\Images\offTheGrid.png" />
+    <None Remove="Assets\Images\tea.jpeg" />
+    <None Remove="Assets\Images\aon.png" />
+    <None Remove="Assets\Images\blaise.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\martlet.png" />
@@ -81,6 +92,17 @@
     <EmbeddedResource Include="Assets\Images\mistplay.png" />
     <EmbeddedResource Include="Assets\Images\ex.png" />
     <EmbeddedResource Include="Assets\Images\rail.jpg" />
+    <EmbeddedResource Include="Assets\Images\nufunds.png" />
+    <EmbeddedResource Include="Assets\Images\hypnosand.png" />
+    <EmbeddedResource Include="Assets\Images\sonder.png" />
+    <EmbeddedResource Include="Assets\Images\goalcast.png" />
+    <EmbeddedResource Include="Assets\Images\physio.jpg" />
+    <EmbeddedResource Include="Assets\Images\compass.png" />
+    <EmbeddedResource Include="Assets\Images\precare.png" />
+    <EmbeddedResource Include="Assets\Images\offTheGrid.png" />
+    <EmbeddedResource Include="Assets\Images\tea.jpeg" />
+    <EmbeddedResource Include="Assets\Images\aon.png" />
+    <EmbeddedResource Include="Assets\Images\blaise.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MyPage.xaml.cs" />

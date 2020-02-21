@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="McGillStartupFair.Views.CompanyView">
+    <ScrollView>
+
 
 
    <StackLayout Margin="20,35,20,25">
 
-       <Image x:Name="compLogo"/>
 
        <Label Text="{Binding CompanyName}" FontSize="40" FontAttributes="Bold" FontFamily="Comic Sans MS"/>
 
         <Label Text="{Binding CompanyDescription}"
                FontFamily="Comic Sans MS"
                VerticalOptions="Center"/>
-       
 
+       <Button CornerRadius="10" Text="Visit their Website" FontFamily="Comic Sans MS" FontAttributes="Bold" Clicked="Link_Clicked" Margin="60,60,60,60" Scale="1.2" BackgroundColor="Red" TextColor="White"/>
+
+       
+        <Image x:Name="compLogo"
+               Margin="40,40,40,40"/>
 
     </StackLayout>
 
+
+        </ScrollView>
 </ContentPage>

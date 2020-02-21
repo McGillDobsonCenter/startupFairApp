@@ -12,11 +12,15 @@ namespace McGillStartupFair.Views
 
         public string CompanyDescription { get; private set; }
 
+        public string CompanyURL { get; private set; }
+
         public CompanyView(Company company)
         {
             CompanyName = company.Name;
 
             CompanyDescription = company.Description;
+
+            CompanyURL = company.URL;
 
             InitializeComponent();
 
@@ -28,6 +32,10 @@ namespace McGillStartupFair.Views
 
             BindingContext = this;
 
+        }
+        void Link_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Device.OpenUri(new Uri(CompanyURL));
         }
     }
 }

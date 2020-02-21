@@ -284,7 +284,7 @@ namespace McGillStartupFair
                 Name = "nufuuds",
                 Description = "nufuuds creates delicious, plant-based foods made with the world’s oldest and smallest superfood, algae.",
                 URL = "https://nufuuds.com",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.nufunds.png"
 
             });
 
@@ -293,7 +293,7 @@ namespace McGillStartupFair
                 Name = "Hypnosand",
                 Description = "Hypnosand is a luxury brand that combines art, design and technology by creating unique, customizable and high-quality tables.",
                 URL = "http://hypnosand.com/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.hypnosand.png"
 
             });
 
@@ -302,7 +302,7 @@ namespace McGillStartupFair
                 Name = "Sonder",
                 Description = "Short term rental company that was founded in MTL and has spaces worldwide. All of our spaces are professionally designed and curated so that our guests can experience the best of the cities that we operate in. ",
                 URL = "https://www.sonder.com/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.sonder.png"
 
             });
 
@@ -311,7 +311,7 @@ namespace McGillStartupFair
                 Name = "Goalcast",
                 Description = "Goalcast is a media company that’s hellbent on unleashing humanity’s full potential. We produce  short films, short documentaries and speeches. The stories we share impact millions. With a community of over 40+ Million followers, and monthly viewership of over 500 million, our content truly changes lives. ",
                 URL = "",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.goalcast.png"
 
             });
 
@@ -320,7 +320,7 @@ namespace McGillStartupFair
                 Name = "PhysioBiometrics Inc.",
                 Description = "Dedicated to the development of practical and accessible innovations for people with movement and posture vulnerabilities that can be marketed directly to those at risk and those who treat them",
                 URL = "",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.physio.jpg"
 
             });
 
@@ -329,7 +329,7 @@ namespace McGillStartupFair
                 Name = "Compass Startup Legal Clinic",
                 Description = "Compass Startup Legal Clinic offers free legal information to startups and entrepreneurs on business law issues.",
                 URL = "http://compassclinic.org/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.compass.png"
 
             });
 
@@ -338,7 +338,7 @@ namespace McGillStartupFair
                 Name = "Precare Inc.",
                 Description = "An innovative platform that provides evidence-based information through animated medical and surgical guides. The guides are accessible on the web in 20 languages for free, thereby increasing information retention through simple audiovisuals and reducing dependency on printed media.",
                 URL = "https://precare.ca/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.precare.png"
 
             });
 
@@ -347,7 +347,7 @@ namespace McGillStartupFair
                 Name = "Off The Grid",
                 Description = "Off The Grid specializes in a spinning bike combined with a web application that turns energy into electricity.This energy is then redistributed directly into the grid of the gym through a wall outlet. The process produces a credit on the monthly bill.",
                 URL = "https://getoffthegrid.ca/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.offTheGrid.png"
 
             });
 
@@ -356,7 +356,7 @@ namespace McGillStartupFair
                 Name = "Vent Over Tea",
                 Description = "Vent Over Tea is a free active listening service that pairs those who need to vent with an empathetic listener in a local cafe. Our volunteer active listeners listen without judgment, give you their undivided attention, and ask reflective questions. Choose a time and cafe on our website, and a volunteer will meet you there!",
                 URL = "https://ventovertea.com/en/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.tea.jpeg"
 
             });
 
@@ -365,7 +365,7 @@ namespace McGillStartupFair
                 Name = "AON3D",
                 Description = "AON3D builds industrial 3D printers for high-performance materials. We serve customers like Blue Origin, Lockheed Martin, DuPont, and over 150 other leading engineering organizations.",
                 URL = "https://www.aon3d.com/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.aon.png"
 
             });
 
@@ -374,7 +374,7 @@ namespace McGillStartupFair
                 Name = "Blaise",
                 Description = "On-demand bus software platform",
                 URL = "https://www.blaisetransit.com/",
-                ImagePath = "",
+                ImagePath = "McGillStartupFair.Assets.Images.blaise.png"
             });
         }
 

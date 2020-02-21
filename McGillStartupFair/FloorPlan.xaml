@@ -5,6 +5,7 @@
             <Label
                Text="Floor Plan"
                 FontAttributes="Bold"
+                TextColor="Black"
                 FontSize="Title"
                 Margin="30,80,30,30"
                 />

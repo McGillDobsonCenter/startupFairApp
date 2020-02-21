@@ -10,7 +10,7 @@
                       x:Name="sb"/>
            <ListView x:Name="EmployeeListView"
                ItemsSource="{Binding companies}"
-                  ItemTapped="OnItemTapped"  
+                  ItemTapped="OnItemTapped"         
                   />
        </StackLayout> 
 
