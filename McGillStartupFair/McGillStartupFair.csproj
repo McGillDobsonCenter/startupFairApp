@@ -22,6 +22,33 @@
     <None Remove="Assets\Images\logo2.png" />
     <None Remove="Assets\Images\amazon.png" />
     <None Remove="Assets\Images\floorplan.png" />
+    <None Remove="Assets\Images\shuttleControl.png" />
+    <None Remove="Assets\Images\shuttleControl.png" />
+    <None Remove="Assets\Images\sweaterGuys.png" />
+    <None Remove="Assets\Images\yuma.png" />
+    <None Remove="Assets\Images\yuma.png" />
+    <None Remove="Assets\Images\geekit.png" />
+    <None Remove="Assets\Images\tote.png" />
+    <None Remove="Assets\Images\NEXT.png" />
+    <None Remove="Assets\Images\engine.png" />
+    <None Remove="Assets\Images\tandem.png" />
+    <None Remove="Assets\Images\planned.png" />
+    <None Remove="Assets\Images\FRVentures.png" />
+    <None Remove="Assets\Images\micro.jpg" />
+    <None Remove="Assets\Images\movemate.png" />
+    <None Remove="Assets\Images\lewagon.png" />
+    <None Remove="Assets\Images\lighthouse.png" />
+    <None Remove="Assets\Images\lfant.png" />
+    <None Remove="Assets\Images\boxnight.png" />
+    <None Remove="Assets\Images\saccade.png" />
+    <None Remove="Assets\Images\gradeslam.png" />
+    <None Remove="Assets\Images\foodprint.png" />
+    <None Remove="Assets\Images\dialogue.png" />
+    <None Remove="Assets\Images\plakk.jpg" />
+    <None Remove="Assets\Images\scooble.png" />
+    <None Remove="Assets\Images\mistplay.png" />
+    <None Remove="Assets\Images\ex.png" />
+    <None Remove="Assets\Images\rail.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\martlet.png" />
@@ -29,6 +56,31 @@
     <EmbeddedResource Include="Assets\Images\logo2.png" />
     <EmbeddedResource Include="Assets\Images\amazon.png" />
     <EmbeddedResource Include="Assets\Images\floorplan.png" />
+    <EmbeddedResource Include="Assets\Images\shuttleControl.png" />
+    <EmbeddedResource Include="Assets\Images\sweaterGuys.png" />
+    <EmbeddedResource Include="Assets\Images\yuma.png" />
+    <EmbeddedResource Include="Assets\Images\geekit.png" />
+    <EmbeddedResource Include="Assets\Images\tote.png" />
+    <EmbeddedResource Include="Assets\Images\NEXT.png" />
+    <EmbeddedResource Include="Assets\Images\engine.png" />
+    <EmbeddedResource Include="Assets\Images\tandem.png" />
+    <EmbeddedResource Include="Assets\Images\planned.png" />
+    <EmbeddedResource Include="Assets\Images\FRVentures.png" />
+    <EmbeddedResource Include="Assets\Images\micro.jpg" />
+    <EmbeddedResource Include="Assets\Images\movemate.png" />
+    <EmbeddedResource Include="Assets\Images\lewagon.png" />
+    <EmbeddedResource Include="Assets\Images\lighthouse.png" />
+    <EmbeddedResource Include="Assets\Images\lfant.png" />
+    <EmbeddedResource Include="Assets\Images\boxnight.png" />
+    <EmbeddedResource Include="Assets\Images\saccade.png" />
+    <EmbeddedResource Include="Assets\Images\gradeslam.png" />
+    <EmbeddedResource Include="Assets\Images\foodprint.png" />
+    <EmbeddedResource Include="Assets\Images\dialogue.png" />
+    <EmbeddedResource Include="Assets\Images\plakk.jpg" />
+    <EmbeddedResource Include="Assets\Images\scooble.png" />
+    <EmbeddedResource Include="Assets\Images\mistplay.png" />
+    <EmbeddedResource Include="Assets\Images\ex.png" />
+    <EmbeddedResource Include="Assets\Images\rail.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MyPage.xaml.cs" />

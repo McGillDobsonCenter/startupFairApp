@@ -6,11 +6,12 @@
                Text="Floor Plan"
                 FontAttributes="Bold"
                 FontSize="Title"
-                Margin="30,30,30,30"
+                Margin="30,80,30,30"
                 />
             <Image
                 x:Name="floorplan"
                 HorizontalOptions="CenterAndExpand"
+                VerticalOptions="Center"
                 />
 
           
