@@ -29,5 +29,7 @@ namespace McGillStartupFair.Views
             BindingContext = this;
 
         }
+
+        private void Favourites_Clicked(object sender, EventArgs args) { }
     }
 }

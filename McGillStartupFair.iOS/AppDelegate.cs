@@ -26,7 +26,9 @@ namespace McGillStartupFair.iOS
         {
             UINavigationBar.Appearance.BarTintColor = new UIColor(245 / 255f, 246 / 255f, 247 / 255f, 1.0f);
             UINavigationBar.Appearance.TintColor = new UIColor(90 / 255f, 36 / 255f, 191 / 255f, 1.0f);
+#if ENABLE_TEST_CLOUD
             Xamarin.Calabash.Start();
+#endif
             global::Xamarin.Forms.Forms.Init();
             Xamarin.FormsMaps.Init();
             LoadApplication(new App());

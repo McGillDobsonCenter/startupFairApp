@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="McGillStartupFair.HomePage" BarBackgroundColor="Red"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="McGillStartupFair.HomePage"
             xmlns:local="clr-namespace:McGillStartupFair"
-            >
+            SelectedTabColor="#5a24bf"
+            BarBackgroundColor="#e5e5e5"
+            UnselectedTabColor="#d4c4f2"
+            BarTextColor="#5a24bf">
 
-<local:Employers IconImageSource="company.png"/>
-<local:info Icon="info.png"/>
-<local:FloorPlan IconImageSource="fplan.png"/>
-<local:Favorites IconImageSource="heart.png"/>
+<local:Employers Title="Employers" IconImageSource="company.png"/>
+<local:info Title="Info" Icon="info.png"/>
+<local:FloorPlan Title="Floor Plan" IconImageSource="fplan.png"/>
+<local:Favorites Title="Favorites" IconImageSource="heart.png"/>
 
 </TabbedPage>
