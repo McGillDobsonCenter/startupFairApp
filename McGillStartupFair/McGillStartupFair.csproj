@@ -21,12 +21,14 @@
     <None Remove="Assets\Images\background4.jpg" />
     <None Remove="Assets\Images\logo2.png" />
     <None Remove="Assets\Images\amazon.png" />
+    <None Remove="Assets\Images\floorplan.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\martlet.png" />
     <EmbeddedResource Include="Assets\Images\background4.jpg" />
     <EmbeddedResource Include="Assets\Images\logo2.png" />
     <EmbeddedResource Include="Assets\Images\amazon.png" />
+    <EmbeddedResource Include="Assets\Images\floorplan.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MyPage.xaml.cs" />

@@ -10,6 +10,8 @@ namespace McGillStartupFair
         public FloorPlan()
         {
             InitializeComponent();
+            floorplan.Source = ImageSource.FromResource("McGillStartupFair.Assets.Images.floorplan.png");
+
         }
     }
 }

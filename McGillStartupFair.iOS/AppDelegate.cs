@@ -24,8 +24,8 @@ namespace McGillStartupFair.iOS
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            UINavigationBar.Appearance.BarTintColor = new UIColor(245 / 255f, 246 / 255f, 247 / 255f, 1.0f);
-            UINavigationBar.Appearance.TintColor = new UIColor(90 / 255f, 36 / 255f, 191 / 255f, 1.0f);
+            UINavigationBar.Appearance.BarTintColor = new UIColor(235 / 255f, 0 / 255f, 0 / 255f, 1.0f);
+            UINavigationBar.Appearance.TintColor = new UIColor(255 / 255f, 255 / 255f, 255 / 255f, 1.0f);
             Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
             Xamarin.FormsMaps.Init();

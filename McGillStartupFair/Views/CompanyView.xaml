@@ -6,15 +6,13 @@
 
        <Image x:Name="compLogo"/>
 
-       <Label Text="{Binding CompanyName}" FontSize="40"/>
+       <Label Text="{Binding CompanyName}" FontSize="40" FontAttributes="Bold" FontFamily="Comic Sans MS"/>
 
         <Label Text="{Binding CompanyDescription}"
+               FontFamily="Comic Sans MS"
                VerticalOptions="Center"/>
        
-       <Button Text="Add To Favorites"
-               VerticalOptions="Start"
-               Clicked="Favourites_Clicked"
-               />
+
 
     </StackLayout>
 

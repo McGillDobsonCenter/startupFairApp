@@ -6,6 +6,5 @@
 <local:Employers IconImageSource="company.png"/>
 <local:info Icon="info.png"/>
 <local:FloorPlan IconImageSource="fplan.png"/>
-<local:Favorites IconImageSource="heart.png"/>
 
 </TabbedPage>
