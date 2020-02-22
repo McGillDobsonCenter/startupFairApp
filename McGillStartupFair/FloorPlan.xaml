@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="McGillStartupFair.FloorPlan">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="McGillStartupFair.FloorPlan" xmlns:local="clr-namespace:McGillStartupFair;assembly=McGillStartupFair">
     <ContentPage.Content>
         <StackLayout>
             <Label
@@ -9,13 +9,16 @@
                 FontSize="Title"
                 Margin="30,80,30,30"
                 />
-            <Image
+
+           <local:PinchToZoom>
+               <local:PinchToZoom.Content>
+                <Image
                 x:Name="floorplan"
                 HorizontalOptions="CenterAndExpand"
-                VerticalOptions="Center"
-                />
-
-          
+                VerticalOptions="Center"/>
+                </local:PinchToZoom.Content>
+           </local:PinchToZoom>
+        
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
