@@ -5,7 +5,7 @@
 
 
        <StackLayout
-           Margin="60">
+           Margin="48">
            <SearchBar Placeholder="Search Startups"
                       x:Name="sb"/>
            <ListView x:Name="EmployeeListView"
